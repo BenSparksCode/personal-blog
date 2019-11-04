@@ -8,6 +8,7 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -85,7 +86,8 @@ export const IndexPageTemplate = ({
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
                     </h3>
-                    <p dangerouslySetInnerHTML={{ __html: paragraphs(description) }} />
+                    <div dangerouslySetInnerHTML={{ __html: paragraphs(description) }} />
+                    {/* <p>{description.split(`\n\n`).map(paragraph => `<p>${paragraph.replace(/\n/g, `<br>`)}</p>`).join(``)}</p>  */}
                   </div>
                 </div>
                 {/* <Features gridItems={intro.blurbs} /> */}
