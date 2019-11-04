@@ -1,21 +1,21 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Ben Sparks
 image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+heading: Welcome to my blog!
+subheading: 
 mainpitch:
-  title: Why Kaldi
+  title: Welcome!
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    This is my blog. It will probably look very different very soon, once I get the hang of Gatsby. 
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+    I want this site to be the world's little window into my perspective on life, the universe, and everything.  
+  
+
+    For now, this is just a coffee-bean-template-site flavoured taste. Once I get the hang of Gatsby, Netlify, Markdown, and blog-writing in general, this space will start to look very different.  
+    
+
+    Coming soon...
 intro:
   blurbs:
     - image: /img/coffee.png
