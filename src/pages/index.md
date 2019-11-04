@@ -3,7 +3,7 @@ templateKey: index-page
 title: Ben Sparks
 image: /img/home-jumbotron.jpg
 heading: Welcome to my blog!
-subheading:  
+subheading: test
 mainpitch:
   title: Welcome!
   description: >
