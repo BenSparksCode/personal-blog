@@ -3,7 +3,7 @@ templateKey: index-page
 title: Ben Sparks
 image: /img/home-jumbotron.jpg
 heading: Welcome to my blog!
-subheading: 
+subheading:  
 mainpitch:
   title: Welcome!
   description: >
@@ -13,7 +13,7 @@ description: >-
   
 
     For now, this is just a coffee-bean-template-site flavoured taste. Once I get the hang of Gatsby, Netlify, Markdown, and blog-writing in general, this space will start to look very different.  
-    
+
 
     Coming soon...
 intro:
