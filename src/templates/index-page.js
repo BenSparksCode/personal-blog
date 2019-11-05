@@ -5,7 +5,6 @@ import { Link, graphql } from 'gatsby'
 import paragraphs from "lines-to-paragraphs"
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 
