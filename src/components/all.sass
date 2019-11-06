@@ -31,7 +31,7 @@ $black: #2b2523
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400px
+  height: 300px
   position: relative
   left: 50%
   right: 50%
@@ -44,7 +44,7 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 400px
+    height: 300px
     background-size: cover
     background-position: bottom
     display: flex
@@ -73,6 +73,10 @@ $black: #2b2523
 
 .navbar-item .icon
   color: $primary
+
+.navbar-item:hover
+  background-color: $kaldi-red
+
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
   width: 1.5rem
@@ -81,7 +85,8 @@ $black: #2b2523
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 footer.footer
-  padding: 3rem 0rem 0rem
+  height: 100px
+  padding: 1rem 0rem 0rem
   background-color: transparent
 
 //Menu overrides
@@ -100,15 +105,18 @@ $menu-label-color: $white-ter
 .menu-list
   list-style: none !important
   text-align: left
+.social-text
+  margin-bottom: 10px
 .social
-  padding: 2em
+  padding: 1em
 .social a
     padding: .5em .5em .3em .5em
+
     border-radius: 1em
     background-color: $white-ter
     margin: .5em
-    width: 1em
-    height: 1em
+    width: 2em
+    height: 2em
     vertical-align: middle
     display: inline
 
