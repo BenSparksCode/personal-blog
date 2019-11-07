@@ -163,7 +163,6 @@ $menu-label-color: $white-ter
 .social a
     padding: 8px
     align-items: center !important
-
     border-radius: 8px
     background-color: $white-ter
     margin: .5em
@@ -178,11 +177,25 @@ $menu-label-color: $white-ter
       margin-bottom: 3px
 
 // blog roll
+// .column
+//   box-shadow: 0 16px 32px 0 rgba(0,0,0,0.8)
+
+.blog-list-item
+  border: 1px solid $primary
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.4) !important
+  header
+    .post-meta
+      .title
+        text-decoration: none !important
+        font-weight: 600 !important
+
 .blog-list-item.is-featured
   background-color: #d6400033;
 .blog-list-item header
   display: flex;
   margin-bottom: 1em;
+
+  
 .blog-list-item .featured-thumbnail
   flex-basis: 35%;
   margin: 0 1.5em 0 0;
