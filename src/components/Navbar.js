@@ -2,6 +2,11 @@ import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/logo.svg'
 
+import instagram from '../img/social/instagram.svg'
+import twitter from '../img/social/twitter.svg'
+import linkedin from '../img/social/linkedin.svg'
+import github from '../img/social/github.svg'
+
 const Navbar = class extends React.Component {
   constructor(props) {
     super(props)
@@ -22,11 +27,11 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
+            navBarActiveClass: 'is-active',
+          })
           : this.setState({
-              navBarActiveClass: '',
-            })
+            navBarActiveClass: '',
+          })
       }
     )
   }
@@ -40,33 +45,56 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              Home
+          
+          </div>
+
+          <div className="navbar-items">
+              <div className="side-1">
+                <Link to="/" className="navbar-item" title="Logo">
+                  Home
             </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
+                <Link className="navbar-item" to="/blog">
+                  Blog
+            </Link>
+                <Link className="navbar-item" to="/about">
+                  About
+            </Link>
+              </div>
+              <div className="side-2">
+              <a title="twitter" href="https://twitter.com/Nebbit123">
+                  <img
+                    className="fas fa-lg"
+                    src={twitter}
+                    alt="Twitter"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+
+                <a title="linkedin" href="https://www.linkedin.com/in/ben-sparks-a38a667a/">
+                  <img
+                    src={linkedin}
+                    alt="LinkedIn"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+
+                <a title="github" href="https://github.com/BenSparksCode">
+                  <img
+                    src={github}
+                    alt="GitHub"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+
+                <a title="instagram" href="https://www.instagram.com/bensparks0/">
+                  <img
+                    src={instagram}
+                    alt="Instagram"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                </a>
+              </div>
             </div>
-          </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-            <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-            </div>
-          </div>
         </div>
       </nav>
     )
