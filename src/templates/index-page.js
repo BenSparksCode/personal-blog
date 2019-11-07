@@ -12,10 +12,7 @@ export const IndexPageTemplate = ({
   image,
   title,
   heading,
-  subheading,
-  mainpitch,
   description,
-  intro,
 }) => (
   <div>
     <div
@@ -24,7 +21,8 @@ export const IndexPageTemplate = ({
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
-        backgroundPosition: `top left`,
+        
+        backgroundPosition: `center top`,
         backgroundAttachment: `fixed`,
       }}
     >
@@ -42,12 +40,12 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             
-            backgroundColor: 'rgb(255, 68, 0)',
+            backgroundColor: 'rgb(255, 30, 0)',
             color: 'white',
             lineHeight: '1',
-            padding: '0.4em 1em 0.6em 1em',
-            borderRadius: "10px",
-            boxShadow: "0 8px 16px 0 rgba(0,0,0,0.2)",
+            padding: '0.7em 1.5em 0.8em 1.5em',
+            borderRadius: "0px",
+            boxShadow: "0 16px 32px 0 rgba(0,0,0,0.8)",
           }}
         >
           {title}
@@ -67,7 +65,6 @@ export const IndexPageTemplate = ({
                       {heading}
                     </h3>
                     <div dangerouslySetInnerHTML={{ __html: paragraphs(description) }} />
-                    {/* <p>{description.split(`\n\n`).map(paragraph => `<p>${paragraph.replace(/\n/g, `<br>`)}</p>`).join(``)}</p>  */}
                   </div>
                 </div>
 
@@ -78,7 +75,7 @@ export const IndexPageTemplate = ({
                   <BlogRoll />
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/blog">
-                      Read more
+                      More Posts!
                     </Link>
                   </div>
                 </div>
@@ -144,26 +141,11 @@ export const pageQuery = graphql`
           }
         }
         heading
-        subheading
         mainpitch {
           title
           description
         }
         description
-        intro {
-          blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-            text
-          }
-          heading
-          description
-        }
       }
     }
   }

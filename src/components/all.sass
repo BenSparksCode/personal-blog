@@ -5,14 +5,15 @@
 $kaldi-red: #D64000
 $kaldi-red-invert: #fff
 
-$primary: $kaldi-red
+// $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
 //New blog color scheme
+$primary: #ff1e00
 
- .navbar
+.navbar
    position: fixed
 
 
@@ -45,7 +46,7 @@ $black: #2b2523
   justify-content: flex-end
   a
     align-items: center !important
-    margin: .5em
+    margin: .2em
     width: 2em
     height: 100%
     vertical-align: middle
@@ -91,9 +92,10 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 300px
-    background-size: cover
+    height: 500px
+    background-size: contain
     background-position: bottom
+    background: no-repeat
     display: flex
     justify-content: center
     align-items: center
@@ -159,17 +161,21 @@ $menu-label-color: $white-ter
   padding: 1em
   margin-bottom: 30px
 .social a
-    padding: .5em .5em .3em .5em
+    padding: 8px
+    align-items: center !important
 
-    border-radius: 1em
+    border-radius: 8px
     background-color: $white-ter
     margin: .5em
-    width: 5em
-    height: 5em
+    width: 50px !important
+    height: 50px !important
     vertical-align: middle
     display: inline
     img
-
+      height: 20px !important
+      width: 20px !important
+      vertical-align: middle
+      margin-bottom: 3px
 
 // blog roll
 .blog-list-item.is-featured
