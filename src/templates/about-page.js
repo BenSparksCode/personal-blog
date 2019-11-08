@@ -39,8 +39,8 @@ export const AboutPageTemplate = ({ title, image, heading, content, contentCompo
               lineHeight: '1',
               padding: '0.7em 1.5em 0.8em 1.5em',
               borderRadius: "0px",
-              boxShadow: "0 16px 32px 0 rgba(0,0,0,0.8)",
-              marginTop: "-70vh",
+              boxShadow: "0 12px 24px 0 rgba(0,0,0,0.8)",
+              marginTop: "-50vh",
             }}
           >
             {title}

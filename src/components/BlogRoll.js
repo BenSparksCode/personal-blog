@@ -1,9 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import { Link, graphql, StaticQuery, navigate } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class BlogRoll extends React.Component {
+
+  openBlogPost = (post) => {
+    navigate(post.fields.slug);
+  }
+
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
@@ -17,6 +22,8 @@ class BlogRoll extends React.Component {
                 className={`blog-list-item tile is-child box notification ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
+         
+                onClick={() => this.openBlogPost(post)}
               >
                 <header>
                   {post.frontmatter.featuredimage ? (

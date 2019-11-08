@@ -18,6 +18,7 @@ export const BlogPostTemplate = ({
 
   return (
     <section className="section">
+      <div style={{height: "52px"}}></div>
       {helmet || ''}
       <div className="container content">
         <div className="columns">
