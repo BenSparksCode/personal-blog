@@ -41,34 +41,40 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             
-            backgroundColor: 'rgb(255, 30, 0)',
-            color: 'white',
+            backgroundColor: 'white',
+            color: '#2b2523',
             lineHeight: '1',
-            padding: '0.7em 1.5em 0.8em 1.5em',
-            borderRadius: "0px",
+            padding: '0.7em 1.2em 0.8em 1.2em',
+            border: "3px solid rgb(255, 30, 0)",
+            // borderRadius: "10px",
             marginTop: "-50vh",
-            boxShadow: "0 12px 24px 0 rgba(0,0,0,0.8)",
+            boxShadow: "0 6px 12px 0 rgba(0,0,0,0.8)",
           }}
         >
           {title}
         </h1>
       </div>
     </div>
-    <section className="section section--gradient">
+
+    <section className="section section--gradient"
+    style={{
+      borderTop: "3px solid rgb(255, 30, 0)"
+    }}
+    >
       <div className="container">
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
 
-                <div className="columns">
+                {/* <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
                     </h3>
                     <div dangerouslySetInnerHTML={{ __html: paragraphs(description) }} />
                   </div>
-                </div>
+                </div> */}
 
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">

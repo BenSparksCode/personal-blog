@@ -40,7 +40,7 @@ const Navbar = class extends React.Component {
       <nav
         className="navbar is-transparent"
         style={{
-          boxShadow: "0 6px 12px 0 rgba(0,0,0,0.8)",
+          // boxShadow: "0 6px 12px 0 rgba(0,0,0,0.8)",
           position: "fixed",
           width: "100%"
         }}
