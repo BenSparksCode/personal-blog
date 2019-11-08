@@ -3,13 +3,14 @@ templateKey: blog-post
 title: Genesis Post
 date: 2019-11-08T15:04:10.000Z
 featuredpost: false
+featuredimage: /img/NY-crop-10.png
 description: 
 tags:
+ - Douglas Adams
 ---
-
 ### This is it, my first ever blog post!
 
-And hopefully the first of many. Now, please enjoy some quotes from *The Hitchhiker's Guide to the Galaxy*, sorted by length. 
+And hopefully the first of many. Now, please enjoy some quotes from *The Hitchhiker's Guide to the Galaxy* by Douglas Adams, sorted by length. 
 
 “Don't Panic.”
 
