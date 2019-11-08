@@ -22,10 +22,11 @@ export const IndexPageTemplate = ({
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         
-        backgroundPosition: `center top`,
+
         backgroundAttachment: `fixed`,
       }}
     >
+     
       <div
         style={{
           display: 'flex',
@@ -45,6 +46,7 @@ export const IndexPageTemplate = ({
             lineHeight: '1',
             padding: '0.7em 1.5em 0.8em 1.5em',
             borderRadius: "0px",
+            marginTop: "-70vh",
             boxShadow: "0 16px 32px 0 rgba(0,0,0,0.8)",
           }}
         >

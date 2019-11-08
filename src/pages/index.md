@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: BEN SPARKS
-image: /img/NY-crop-8.png
+image: /img/NY-crop-10.png
 heading: Welcome to my blog!
 mainpitch:
   title: Welcome!
