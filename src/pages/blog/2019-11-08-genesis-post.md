@@ -4,10 +4,13 @@ title: Genesis Post
 date: 2019-11-08T15:04:10.000Z
 featuredpost: false
 featuredimage: /img/NY-crop-10.png
-description: 
+description: >-
+  My first blog post!
 tags:
  - Douglas Adams
 ---
+![NY in the mist](/img/NY-crop-10.jpg)
+
 ### This is it, my first ever blog post!
 
 And hopefully the first of many. Now, please enjoy some quotes from *The Hitchhiker's Guide to the Galaxy* by Douglas Adams, sorted by length. 
