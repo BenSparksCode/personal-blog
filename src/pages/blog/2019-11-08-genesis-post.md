@@ -9,7 +9,7 @@ description: >-
 tags:
  - Douglas Adams
 ---
-![NY in the mist](/img/NY-crop-10.jpg)
+![NY in the mist](/img/NY-crop-10.png)
 
 ### This is it, my first ever blog post!
 
