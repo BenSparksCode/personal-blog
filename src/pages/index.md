@@ -1,6 +1,7 @@
 ---
 templateKey: index-page
 title: Ben Sparks
+quote: Exploring now, exploiting later
 image: /img/NY-crop-10.png
 heading: Welcome to my blog!
 mainpitch:
