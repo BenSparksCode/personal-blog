@@ -5,7 +5,7 @@ date: 2019-11-08T23:45:00.000Z
 featuredpost: false
 featuredimage: /img/NY-crop-10.png
 description: >-
-  My first blog post!
+  My first blog post, written at 2 AM, featuring Douglas Adams quotes.
 tags:
  - Douglas Adams
 ---

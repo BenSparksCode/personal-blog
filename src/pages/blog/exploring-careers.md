@@ -1,21 +1,16 @@
 ---
 templateKey: blog-post
-title: Notional Remix 1
+title: "Choosing Your Ideal Career: An Explore-Exploit Trade-off"
 date: 2019-11-10T12:00:00.000Z
 featuredpost: false
 description: >-
-  "Choosing Your Ideal Career: An Explore-Exploit Trade-off"
+  A thought experiment that applies concepts from Computer Science to career path decisions.
 tags:
  - Explore
  - Exploit
  - Careers
  - Computer Science
 ---
-# Choosing Your Ideal Career: An Explore-Exploit Trade-off
-
-<dl>
-  <br/>
-</dl>
 
 A question I’ve been thinking about lately:
 
@@ -41,7 +36,8 @@ In reality, most people only start exploring potential careers for themselves la
 
 Let’s compare this societal norm to our theoretical optimal solution. Career exploration only starts a couple years after entering high school (16 years old) and stops at the [average graduation age](https://stats.oecd.org/index.aspx?queryid=79474) (around 26 years old). Assuming retirement at 60 years old, the current exploration phase is 10 years of a 44-year total career time. So more realistically, of our total career time, we’re spending **only 23% exploring** – significantly lower than the optimal 37%.
 
-#### Key takeaways:
+This is intended to be more of a thought experiment to frame career choices in a different way, and less of a direct application of the 37% rule. Here are some key insights I see when framing career choices using an explore-exploit model:
+
  - Start your exploration phase early.
  - During your exploration phase, **explore widely and rigorously**.
  - Don’t stop exploring prematurely, be open to swapping to new career paths after you start working.
