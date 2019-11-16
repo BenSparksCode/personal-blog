@@ -5,6 +5,12 @@ module.exports = {
       'This is where I write about things I find interesting.',
   },
   plugins: [
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: ["@weknow/gatsby-remark-twitter"]
+      }
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
